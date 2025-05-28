@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -9,6 +10,18 @@ body{
     color: rgb(255, 255, 255);
     background-color: #000000;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+main{
+    flex-grow: 1;
+    font-family: Poppins, sans-serif;
+
     
 }
 
@@ -43,10 +56,15 @@ a:visited{
 
 .logo h1{
     font-size: 25px;
+    width: 180.3px;
 }
 
 .nav-links, .registrar-login{
     font-size: 16px;
+}
+
+.navbar, .footer{
+    font-family: Inter, sans-serif;
 }
 
 
@@ -62,8 +80,8 @@ a:visited{
 .textos-tela-inicial{
 
     margin: 172px 110px 0px 110px;
-    width: 900px;
-    height: 120px;
+    max-width: 900px;
+    
 }
 
 
@@ -94,21 +112,20 @@ a:visited{
 }
 
 .imagens-tela-inicial{
-    justify-content: space-between;
-    margin: 111px 120px 100px 110px;
+    max-width: 1100px;
+    margin: 111px 120px 120px 110px;
 }
 
 .imagens-tela-inicial ul{
-
     gap: 36px
 }
 
 footer{
     
-    position: static;       
-    width: 100%;
+    /* position: static;        */
+    /* width: 100%; */
     height: 53px;
-    bottom: 0;
+    /* bottom: 0; */
 
     background-color: #050505;
     color: #A6A6A6;
@@ -119,6 +136,7 @@ footer{
     font-size: 14px;
 }
 
+
 footer ul{
     margin-left: 30px;
 }
@@ -127,6 +145,142 @@ footer ul a:visited{
     color: #A6A6A6;
 }
 
+.espacamento-padrao{
+     margin: 130px 110px 0 110px;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato h1{
+    font-size: 45px;
+}
+
+.form-contato{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    margin: 40px 0px 110px 0px;
+    gap: 13px;
+}
+
+
+#nome, #email, #mensagem{
+    color: white;
+    background-color: #101010;
+    border: 1px solid #424242;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+#nome, #email{
+    height: 35px;
+}
+
+#mensagem{
+    height: 110px;
+    margin-bottom: 10px;  
+}
+
+#botao-contato{
+    background-color: #000000;
+    border: 1px solid #424242;
+    border-radius: 15px;
+    color: white;
+
+    height: 40px;
+}
+
+#botao-contato:hover{
+    background-color: #9100CF;
+    cursor: pointer;
+    color: white;
+    border-color: rgb(161, 161, 161);
+}
+
+.botao-login:hover{
+    background-color: #9100CF;
+    cursor: pointer;
+    color: white;
+    border: 1px solid;
+    border-color: rgb(255, 255, 255);
+    
+}
+
+.contato label{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.gerar-imagens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gerar-imagens h1{
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+.form-gerar-imagem{
+    
+    display: flex;
+    width: 100%;
+    height: 60px;
+    gap: 15px;
+
+    background-color: #101010;  
+    border: 1px solid #424242;
+    border-radius: 15px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    
+}
+
+.form-gerar-imagem input[type="text"]{
+    flex-grow: 1;
+    background-color: transparent;
+    color: #e0e0e0;
+    border: none;
+    outline: none;
+}
+
+.form-gerar-imagem input[type="text"]:focus::placeholder{
+    opacity: 0;
+}
+
+.form-gerar-imagem button{
+    color: white;
+    background-color: transparent;
+    border: 1px solid #9100CF;
+    border-radius: 5px;
+    padding: 5px 20px;
+
+    cursor: pointer;
+
+}
+
+.form-gerar-imagem button:hover{
+    background-color: #9100CF;
+    color: white;
+    border-color: rgb(255, 255, 255);
+}
+
+.gerar-imagens img{
+    width: 100%;
+    height: 600px;
+    opacity: 100%;
+    border: 1px solid #424242;
+    border-radius: 15px;
+    margin: 20px 0 110px 0;
+    
+}
 
 
 
