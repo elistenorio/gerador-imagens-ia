@@ -9,7 +9,6 @@ body{
 
     color: rgb(255, 255, 255);
     background-color: #000000;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     min-height: 100vh;
 
     display: flex;
@@ -17,6 +16,11 @@ body{
 
     
 }
+
+header{
+    font-family: Inter, sans-serif;
+}
+
 
 main{
     flex-grow: 1;
@@ -36,7 +40,7 @@ main{
 
 ul{
     display: flex;
-    gap: 20px;
+    gap: 30px;
     list-style: none; 
     font-weight: 300; 
 }
@@ -46,21 +50,21 @@ ul{
 }
 
 a{
+    color: white;
     text-decoration: none;
 }
 
-a:visited{
-    color: white;
-}
 
 
 .logo h1{
-    font-size: 25px;
+    font-size: 30px;
     width: 180.3px;
 }
 
+
+
 .nav-links, .registrar-login{
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .navbar, .footer{
@@ -96,6 +100,7 @@ a:visited{
     font-size: 20px;
     margin-top: 14px;
     font-weight: lighter;
+    
 
 }
 
@@ -104,11 +109,18 @@ a:visited{
     border: 2px solid;
     border-color: #9100CF;
     border-radius: 10px;
+    color: #9100CF;
     
     padding: 8px 30px;
     margin: 50px 0px 0px 110px;
     font-size: 20px;
     
+}
+
+.botao-comece-agora:hover {
+    background-color: #9100CF;
+    cursor: pointer;
+    border-color: rgb(255, 255, 255);
 }
 
 .imagens-tela-inicial{
@@ -141,7 +153,7 @@ footer ul{
     margin-left: 30px;
 }
 
-footer ul a:visited{
+footer a{
     color: #A6A6A6;
 }
 
@@ -156,7 +168,7 @@ footer ul a:visited{
 }
 
 .contato h1{
-    font-size: 45px;
+    font-size: 40px;
 }
 
 .form-contato{
@@ -174,7 +186,7 @@ footer ul a:visited{
     color: white;
     background-color: #101010;
     border: 1px solid #424242;
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 10px 20px;
 }
 
@@ -190,8 +202,9 @@ footer ul a:visited{
 #botao-contato{
     background-color: #000000;
     border: 1px solid #424242;
-    border-radius: 15px;
+    border-radius: 10px;
     color: white;
+    font-weight: bold;
 
     height: 40px;
 }
@@ -207,8 +220,7 @@ footer ul a:visited{
     background-color: #9100CF;
     cursor: pointer;
     color: white;
-    border: 1px solid;
-    border-color: rgb(255, 255, 255);
+    border-color: rgb(161, 161, 161);
     
 }
 
@@ -224,7 +236,7 @@ footer ul a:visited{
 }
 
 .gerar-imagens h1{
-    font-size: 45px;
+    font-size: 40px;
     margin-bottom: 40px;
 }
 
