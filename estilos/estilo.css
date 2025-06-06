@@ -169,7 +169,7 @@ footer a{
 }
 
 .contato h1{
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .form-contato{
@@ -237,7 +237,7 @@ footer a{
 }
 
 .gerar-imagens h1{
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 40px;
 }
 
@@ -260,6 +260,7 @@ footer a{
     flex-grow: 1;
     background-color: transparent;
     color: #e0e0e0;
+    font-size: 15px;
     border: none;
     outline: none;
 }
@@ -272,7 +273,7 @@ footer a{
     color: white;
     background-color: transparent;
     border: 1px solid #9100CF;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 5px 20px;
 
     cursor: pointer;
@@ -296,5 +297,63 @@ footer a{
 }
 
 
+.sobre-projeto{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sobre-projeto-descricao{
+    margin-bottom: 40px;
+}
+
+.sobre-projeto-descricao h1{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.sobre-projeto-tecnologias h2{
+    font-size: 25px;
+    width: 40px;
+    margin-right: 200px;
+}
+
+.sobre-projeto p{
+    max-width: 80vw;
+    font-weight: lighter;
+    font-size: 16px;
+    
+    margin-bottom: 40px;
+}
+
+.sobre-projeto-tecnologias{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+
+.sobre-projeto ul li{
+    width: 110px;
+    height: 80px;
+
+    border: 1px solid #424242;
+    border-radius: 15px;
+    background-color: #101010;
+    padding: 40px 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;      
+}
+
+.sobre-projeto ul li img{
+    width: 35px;
+    height: 35px;
+    margin: 0px 5px 10px 0px;
+    
+}
 
 
