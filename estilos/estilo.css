@@ -404,5 +404,27 @@ footer a{
     margin-bottom: 10px;
 }
 
+.funcionalidades-descricao{
+    margin: 100px 0 180px 0;
+}
+
+.funcionalidades-descricao table{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.funcionalidades-descricao th, .funcionalidades-descricao td{
+    padding: 15px;
+    border: 1px solid #424242;
+}
+
+.funcionalidades-descricao th{
+    background-color: #9100cf63;
+    font-size: 18px;
+}
+
 
 
