@@ -23,10 +23,11 @@ header{
 
 
 main{
-    flex-grow: 1;
-    font-family: Poppins, sans-serif;
+    flex-grow: 1;   
+}
 
-    
+main, footer{
+    font-family: Poppins, sans-serif;
 }
 
 .navbar{
